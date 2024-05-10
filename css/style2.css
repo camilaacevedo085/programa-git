@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgba(120, 3, 146, 0.418);
+    background-image: url(nubesm.jpg);
+  } 
+.contenedor{
+    display: flex;
+}
+#general{
+    background-color: rgb(238, 203, 223);
+    float: right;
+   width: 170px;
+   padding: 227px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 50px;
+    
+}
+P{
+  text-align: center;
+}
+#navegacion{
+
+    background-color: rgb(220, 133, 231);
+    width: 100px;
+    padding: 385px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    background-image: url(m.jpg);
+
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(174, 116, 207);
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(247, 228, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+} 
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: blueviolet;
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+}
+  .img{
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 200px;
+    
+  }
+  *{
+   
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(27deg,#343434 50%, #2c3e2c 50%);
+  }
+  .form-body{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+  }
+  .form-body img{
+    width: 150px;
+    display: block;
+    margin: 20px 0;
+  }
+  .text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 25px;
+  }.form-body input{
+    display:block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: aliceblue;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+  }
+
+}
